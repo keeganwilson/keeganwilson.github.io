@@ -586,6 +586,19 @@ video {
   font-size: 72px;
 }
 
+.skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill-container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .dev-icons {
   height: 75px;
   width: 75px;
